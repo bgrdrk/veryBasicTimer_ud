@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCCC3FB25530A1800D47E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCC3FA25530A1800D47E90 /* AppDelegate.swift */; };
+		3DCCC3FD25530A1800D47E90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCC3FC25530A1800D47E90 /* SceneDelegate.swift */; };
+		3DCCC3FF25530A1800D47E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCC3FE25530A1800D47E90 /* ViewController.swift */; };
+		3DCCC40225530A1800D47E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCCC40025530A1800D47E90 /* Main.storyboard */; };
+		3DCCC40425530A2100D47E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCCC40325530A2100D47E90 /* Assets.xcassets */; };
+		3DCCC40725530A2100D47E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCCC40525530A2100D47E90 /* LaunchScreen.storyboard */; };
+		3DCCC41225530A2200D47E90 /* VeryBasicEggTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCC41125530A2200D47E90 /* VeryBasicEggTimerTests.swift */; };
+		3DCCC41D25530A2200D47E90 /* VeryBasicEggTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCC41C25530A2200D47E90 /* VeryBasicEggTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCCC40E25530A2200D47E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCCC3EF25530A1800D47E90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCCC3F625530A1800D47E90;
+			remoteInfo = VeryBasicEggTimer;
+		};
+		3DCCC41925530A2200D47E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCCC3EF25530A1800D47E90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCCC3F625530A1800D47E90;
+			remoteInfo = VeryBasicEggTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DCCC3F725530A1800D47E90 /* VeryBasicEggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryBasicEggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCCC3FA25530A1800D47E90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCCC3FC25530A1800D47E90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DCCC3FE25530A1800D47E90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCCC40125530A1800D47E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCCC40325530A2100D47E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCCC40625530A2100D47E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DCCC40825530A2100D47E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCCC40D25530A2200D47E90 /* VeryBasicEggTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeryBasicEggTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCCC41125530A2200D47E90 /* VeryBasicEggTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryBasicEggTimerTests.swift; sourceTree = "<group>"; };
+		3DCCC41325530A2200D47E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCCC41825530A2200D47E90 /* VeryBasicEggTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeryBasicEggTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCCC41C25530A2200D47E90 /* VeryBasicEggTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryBasicEggTimerUITests.swift; sourceTree = "<group>"; };
+		3DCCC41E25530A2200D47E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCCC3F425530A1800D47E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCCC40A25530A2200D47E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCCC41525530A2200D47E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCCC3EE25530A1800D47E90 = {
+			isa = PBXGroup;
+			children = (
+				3DCCC3F925530A1800D47E90 /* VeryBasicEggTimer */,
+				3DCCC41025530A2200D47E90 /* VeryBasicEggTimerTests */,
+				3DCCC41B25530A2200D47E90 /* VeryBasicEggTimerUITests */,
+				3DCCC3F825530A1800D47E90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCCC3F825530A1800D47E90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCCC3F725530A1800D47E90 /* VeryBasicEggTimer.app */,
+				3DCCC40D25530A2200D47E90 /* VeryBasicEggTimerTests.xctest */,
+				3DCCC41825530A2200D47E90 /* VeryBasicEggTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCCC3F925530A1800D47E90 /* VeryBasicEggTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3DCCC3FA25530A1800D47E90 /* AppDelegate.swift */,
+				3DCCC3FC25530A1800D47E90 /* SceneDelegate.swift */,
+				3DCCC3FE25530A1800D47E90 /* ViewController.swift */,
+				3DCCC40025530A1800D47E90 /* Main.storyboard */,
+				3DCCC40325530A2100D47E90 /* Assets.xcassets */,
+				3DCCC40525530A2100D47E90 /* LaunchScreen.storyboard */,
+				3DCCC40825530A2100D47E90 /* Info.plist */,
+			);
+			path = VeryBasicEggTimer;
+			sourceTree = "<group>";
+		};
+		3DCCC41025530A2200D47E90 /* VeryBasicEggTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCCC41125530A2200D47E90 /* VeryBasicEggTimerTests.swift */,
+				3DCCC41325530A2200D47E90 /* Info.plist */,
+			);
+			path = VeryBasicEggTimerTests;
+			sourceTree = "<group>";
+		};
+		3DCCC41B25530A2200D47E90 /* VeryBasicEggTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCCC41C25530A2200D47E90 /* VeryBasicEggTimerUITests.swift */,
+				3DCCC41E25530A2200D47E90 /* Info.plist */,
+			);
+			path = VeryBasicEggTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCCC3F625530A1800D47E90 /* VeryBasicEggTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCCC42125530A2200D47E90 /* Build configuration list for PBXNativeTarget "VeryBasicEggTimer" */;
+			buildPhases = (
+				3DCCC3F325530A1800D47E90 /* Sources */,
+				3DCCC3F425530A1800D47E90 /* Frameworks */,
+				3DCCC3F525530A1800D47E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeryBasicEggTimer;
+			productName = VeryBasicEggTimer;
+			productReference = 3DCCC3F725530A1800D47E90 /* VeryBasicEggTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCCC40C25530A2200D47E90 /* VeryBasicEggTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCCC42425530A2200D47E90 /* Build configuration list for PBXNativeTarget "VeryBasicEggTimerTests" */;
+			buildPhases = (
+				3DCCC40925530A2200D47E90 /* Sources */,
+				3DCCC40A25530A2200D47E90 /* Frameworks */,
+				3DCCC40B25530A2200D47E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCCC40F25530A2200D47E90 /* PBXTargetDependency */,
+			);
+			name = VeryBasicEggTimerTests;
+			productName = VeryBasicEggTimerTests;
+			productReference = 3DCCC40D25530A2200D47E90 /* VeryBasicEggTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DCCC41725530A2200D47E90 /* VeryBasicEggTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCCC42725530A2200D47E90 /* Build configuration list for PBXNativeTarget "VeryBasicEggTimerUITests" */;
+			buildPhases = (
+				3DCCC41425530A2200D47E90 /* Sources */,
+				3DCCC41525530A2200D47E90 /* Frameworks */,
+				3DCCC41625530A2200D47E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCCC41A25530A2200D47E90 /* PBXTargetDependency */,
+			);
+			name = VeryBasicEggTimerUITests;
+			productName = VeryBasicEggTimerUITests;
+			productReference = 3DCCC41825530A2200D47E90 /* VeryBasicEggTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCCC3EF25530A1800D47E90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					3DCCC3F625530A1800D47E90 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					3DCCC40C25530A2200D47E90 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3DCCC3F625530A1800D47E90;
+					};
+					3DCCC41725530A2200D47E90 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3DCCC3F625530A1800D47E90;
+					};
+				};
+			};
+			buildConfigurationList = 3DCCC3F225530A1800D47E90 /* Build configuration list for PBXProject "VeryBasicEggTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCCC3EE25530A1800D47E90;
+			productRefGroup = 3DCCC3F825530A1800D47E90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCCC3F625530A1800D47E90 /* VeryBasicEggTimer */,
+				3DCCC40C25530A2200D47E90 /* VeryBasicEggTimerTests */,
+				3DCCC41725530A2200D47E90 /* VeryBasicEggTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCCC3F525530A1800D47E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCCC40725530A2100D47E90 /* LaunchScreen.storyboard in Resources */,
+				3DCCC40425530A2100D47E90 /* Assets.xcassets in Resources */,
+				3DCCC40225530A1800D47E90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCCC40B25530A2200D47E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCCC41625530A2200D47E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCCC3F325530A1800D47E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCCC3FF25530A1800D47E90 /* ViewController.swift in Sources */,
+				3DCCC3FB25530A1800D47E90 /* AppDelegate.swift in Sources */,
+				3DCCC3FD25530A1800D47E90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCCC40925530A2200D47E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCCC41225530A2200D47E90 /* VeryBasicEggTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCCC41425530A2200D47E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCCC41D25530A2200D47E90 /* VeryBasicEggTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCCC40F25530A2200D47E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCCC3F625530A1800D47E90 /* VeryBasicEggTimer */;
+			targetProxy = 3DCCC40E25530A2200D47E90 /* PBXContainerItemProxy */;
+		};
+		3DCCC41A25530A2200D47E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCCC3F625530A1800D47E90 /* VeryBasicEggTimer */;
+			targetProxy = 3DCCC41925530A2200D47E90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCCC40025530A1800D47E90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCCC40125530A1800D47E90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DCCC40525530A2100D47E90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCCC40625530A2100D47E90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCCC41F25530A2200D47E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DCCC42025530A2200D47E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCCC42225530A2200D47E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JXNCSA5P;
+				INFOPLIST_FILE = VeryBasicEggTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.bgrd.VeryBasicEggTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3DCCC42325530A2200D47E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JXNCSA5P;
+				INFOPLIST_FILE = VeryBasicEggTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.bgrd.VeryBasicEggTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3DCCC42525530A2200D47E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JXNCSA5P;
+				INFOPLIST_FILE = VeryBasicEggTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.bgrd.VeryBasicEggTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeryBasicEggTimer.app/VeryBasicEggTimer";
+			};
+			name = Debug;
+		};
+		3DCCC42625530A2200D47E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JXNCSA5P;
+				INFOPLIST_FILE = VeryBasicEggTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.bgrd.VeryBasicEggTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeryBasicEggTimer.app/VeryBasicEggTimer";
+			};
+			name = Release;
+		};
+		3DCCC42825530A2200D47E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JXNCSA5P;
+				INFOPLIST_FILE = VeryBasicEggTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.bgrd.VeryBasicEggTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeryBasicEggTimer;
+			};
+			name = Debug;
+		};
+		3DCCC42925530A2200D47E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JXNCSA5P;
+				INFOPLIST_FILE = VeryBasicEggTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lt.bgrd.VeryBasicEggTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeryBasicEggTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCCC3F225530A1800D47E90 /* Build configuration list for PBXProject "VeryBasicEggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCCC41F25530A2200D47E90 /* Debug */,
+				3DCCC42025530A2200D47E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCCC42125530A2200D47E90 /* Build configuration list for PBXNativeTarget "VeryBasicEggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCCC42225530A2200D47E90 /* Debug */,
+				3DCCC42325530A2200D47E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCCC42425530A2200D47E90 /* Build configuration list for PBXNativeTarget "VeryBasicEggTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCCC42525530A2200D47E90 /* Debug */,
+				3DCCC42625530A2200D47E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCCC42725530A2200D47E90 /* Build configuration list for PBXNativeTarget "VeryBasicEggTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCCC42825530A2200D47E90 /* Debug */,
+				3DCCC42925530A2200D47E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCCC3EF25530A1800D47E90 /* Project object */;
+}
